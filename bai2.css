@@ -1,0 +1,41 @@
+*{margin: 0; padding: 0;}
+html,body{
+	width: 100%; 
+	height: auto;
+	min-height: 100%;
+	background-color: lightblue;
+}
+
+.container{background-color: white;}
+.container ul{
+    list-style: none;
+}
+.container ul li{
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 0px;
+    color: black;
+    background: lightblue;
+    padding: 0 20px;
+}
+.container ul li a{
+	color: black;
+	width: 100%;
+	height: 100%;
+
+}
+.container .ele{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container .ele .text{
+    width: 100%;
+    height: 800px;
+}
+.container .ele img{
+    width: 100%;
+    height: 600px;
+}
